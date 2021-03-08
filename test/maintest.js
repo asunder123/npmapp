@@ -1,6 +1,6 @@
 // Requiring module 
 const assert = require('assert'); 
-
+var x = 10;   
 // We can group similar tests inside a describe block 
 describe("Simple Calculations", () => { 
 before(() => { 
@@ -26,7 +26,6 @@ describe( "Test1", () => {
 	});
 	
 	it("Returns 10 as stored variable x, () => { 
-	var x = 10;   
 	assert.equal(10,x);
         });
 }); 
