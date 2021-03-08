@@ -6,7 +6,7 @@ var y = 20;
 // var z = x+y ;
 var fs = require("fs");
 console.log(fs);
-var data = fs.readFileSync('ABNAmroIntro.txt');
+var data = fs.readFileSync('Sample.txt');
 console.log(data.toString());
 // console.log(x+y);
 console.log('Server running at http://127.0.0.1:8081/');
