@@ -1,6 +1,6 @@
 // Requiring module 
 const assert = require('assert'); 
-var x = 10;   
+// var x = 10;   
 // We can group similar tests inside a describe block 
 describe("Simple Calculations", () => { 
 before(() => { 
