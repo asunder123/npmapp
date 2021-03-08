@@ -23,7 +23,11 @@ describe( "Test1", () => {
 
 	it("Is returning 6 when multiplying 2 * 3", () => { 
 	assert.equal(2*3, 6); 
-	}); 
+	});
+	
+	it("Returns 10 as stored variable x, () => {   
+	assert.equal(10,x);
+        });
 }); 
 
 describe("Test2", () => { 
