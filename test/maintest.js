@@ -25,7 +25,8 @@ describe( "Test1", () => {
 	assert.equal(2*3, 6); 
 	});
 	
-	it("Returns 10 as stored variable x, () => {   
+	it("Returns 10 as stored variable x, () => { 
+	var x = 10;   
 	assert.equal(10,x);
         });
 }); 
