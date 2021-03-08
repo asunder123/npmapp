@@ -5,6 +5,7 @@ var x = 10;
 var y = 20;
 // var z = x+y ;
 var fs = require("fs");
+console.log(fs);
 var data = fs.readFileSync('ABNAmroIntro.txt');
 console.log(data.toString());
 // console.log(x+y);
@@ -35,9 +36,10 @@ http.createServer(function (request, response) {
    //Send the response body as "Hello World"
    // response.end(z);
    response.end(data.toString());
+   response.end(events);
    response.end('Hello World\n');
 
-}).listen(8081);
+}).listen(8082);
 
 console.log(listner1);
 console.log(listner2);
