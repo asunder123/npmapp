@@ -4,3 +4,9 @@
 2) Throughput
 3) Errors
 4) Saturation 
+
+
+To run the repository execute the following steps :
+1) git clone https://github.com/asunder123/npmapp
+2) cd node_nodules/npmapp
+3) run ng serve 
